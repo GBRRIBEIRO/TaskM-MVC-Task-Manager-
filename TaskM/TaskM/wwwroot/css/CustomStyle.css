@@ -1,0 +1,47 @@
+﻿:root {
+    --primarycolor: #9a52ff;
+}
+.header {
+    background-color: var(--primarycolor);
+    box-shadow: 0px 3px 10px 0px #000;
+    font-family: 'Anton', sans-serif;
+    border-radius: 0px 0px 50px 50px;
+}
+
+.footer {
+    background-color: var(--primarycolor);
+    box-shadow: 0px 3px 10px 0px #000;
+    font-family: 'Anton', sans-serif;
+    border-radius: 50px 50px 0px 0px;
+}
+.anim {
+    animation:appear 2s forwards;
+}
+
+.workItem{
+    max-width: 400px;
+    width:fit-content;
+}
+
+.nav-style {
+    text-shadow: 0.2px 1px 3px #c0c0c0;
+}
+
+.login-nav {
+    background-color: #8532fa;
+    border-radius: 50px 50px 50px 50px;
+}
+
+.button-animation {
+    transition: .2s ease-in-out 0s
+}
+    .button-animation:hover {
+        transform: scale(1.25);
+    }
+
+@keyframes appear {
+
+    100% {
+        transform: translateX(20px);
+    }
+}

@@ -1,0 +1,66 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<!-- Head -->
+<head>
+    <meta charset="utf-8" />
+    <title>TaskM</title>
+    <link rel="icon" href="~/TaskMLogo.png" />
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/customStyle.css" asp-append-version="true" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet" />
+
+</head>
+
+<!-- Layout body-->
+<body class="bg-dark d-flex flex-column min-vh-100">
+    <!-- Header -->
+    <header class="py-1 mb-4 header">
+
+        <div class="container d-flex flex-wrap justify-content-center align-items-center">
+            <a class="d-flex align-items-center mb-3 mb-lg-0  text-dark text-decoration-none">
+                <svg class="bi me-2 position-absolute" width="40" height="32" href="https://github.com/GBRRIBEIRO">
+                    <img class="button-animation" width="60" height="60" src="~/TaskMLogo.png" />
+                </svg>
+            </a>
+
+            <a href="https://github.com/GBRRIBEIRO" class="me-lg-auto">
+                <img class="rounded-circle border border-dark button-animation" width="30" height="30" src="https://avatars.githubusercontent.com/u/102530919?v=4" alt="Avatar" />
+            </a>
+            <!-- Nav Bar -->
+            <nav class="py-2">
+                <div class="container d-flex flex-wrap">
+                    <!-- Nav Items -->
+                    <ul class="nav me-auto text-decoration-underline">
+                        <li class="nav-item"><a href="#" class="nav-link link-dark text-black px-2 active button-animation" aria-current="page">Home</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link link-dark text-black px-2 button-animation">FAQs</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link link-dark text-black px-2 button-animatione">About</a></li>
+                    </ul>
+
+                    <!-- Login nav items-->
+                    <ul class="nav border border-dark login-nav ms-lg-3">
+                        <li class="nav-item "><a href="#" class="nav-link link-dark text-black px-2 button-animation">Login</a></li>
+                        <li class="nav-item border-start border-dark "><a href="#" class="nav-link link-dark text-black px-2 button-animation">Sign up</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Page -->
+    <div class="container">
+        @RenderBody()
+    </div>
+
+    <!-- Footer -->
+    <footer class="text-center footer mt-auto">
+        <div>
+            <a class="btn btn-outline-light btn-floating m-1" href="https://github.com/GBRRIBEIRO" role="button">
+                <i class="fab"></i>
+            </a>
+        </div>
+    </footer>
+
+</body>
+</html>

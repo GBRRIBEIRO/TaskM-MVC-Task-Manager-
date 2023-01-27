@@ -1,0 +1,37 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = TaskM
+build_property.RootNamespace = TaskM
+build_property.ProjectDir = D:\Dev\Projects\TaskM\TaskM\TaskM\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = D:\Dev\Projects\TaskM\TaskM\TaskM
+build_property._RazorSourceGeneratorDebug = 
+
+[D:/Dev/Projects/TaskM/TaskM/TaskM/Views/Shared/Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXExheW91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Dev/Projects/TaskM/TaskM/TaskM/Views/WorkItem/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcV29ya0l0ZW1cRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Dev/Projects/TaskM/TaskM/TaskM/Views/WorkItem/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcV29ya0l0ZW1cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Dev/Projects/TaskM/TaskM/TaskM/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Dev/Projects/TaskM/TaskM/TaskM/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 

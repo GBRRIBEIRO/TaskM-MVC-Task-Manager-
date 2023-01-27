@@ -1,0 +1,72 @@
+﻿body {
+    font-family: 'Lato';
+    background: #666;
+    color: #fff;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+p {
+    font-family: 'Reenie Beanie';
+    font-size: 1rem;
+}
+.list, .listitem {
+    list-style: none;
+}
+
+.list {
+    display: flex;
+    align-content: flex-start;
+    flex-direction: column;
+    flex-wrap: wrap; /*Agrupa os items de dentro de uma forma que não saiam da DIV*/
+    justify-content: center; /*Centraliza o conteudo horizontalmente*/
+    max-height: 80vh;
+    max-width: 100vw;
+    overflow: hidden;
+}
+
+.list .listitem .hyperlink {
+    text-decoration: none;
+    color: #000;
+    background: #ffc;
+    display: block;
+    max-height:60vh;
+    max-width:10em;
+    height: auto;
+    width: auto;
+    padding: 1em;
+    box-shadow: 5px 5px 7px rgba(33,33,33,.7);
+    transform: rotate(-2deg);
+    transition: transform .15s linear;
+}
+
+.list .listitem:nth-child(even) .hyperlink {
+    transform: rotate(2deg);
+    position: relative;
+    top: 5px;
+    background: #cfc;
+}
+
+
+.list .listitem .hyperlink:hover, .list .listitem .hyperlink:focus {
+    box-shadow: 10px 10px 7px rgba(0,0,0,.7);
+    transform: scale(1.25);
+    position: relative;
+    z-index: 5;
+}
+
+.listitem {
+    margin-right:2em;
+}
+
+.addButton {
+    margin-bottom:1em;
+}

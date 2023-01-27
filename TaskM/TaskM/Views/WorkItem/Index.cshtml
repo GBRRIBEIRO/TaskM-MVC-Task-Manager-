@@ -1,0 +1,26 @@
+﻿@model TaskM.Models.WorkItems.WorkItem[]
+
+<head>
+    <link rel="stylesheet" href="~/css/IndexStyle.css" asp-append-version="true" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+</head>
+<div>
+    <input class="addButton button-animation" type="image" src="~/add-icon-png-2486.png" height="30" width="30" />
+    <ul class="list p-0">
+
+        @foreach (var workItem in Model)
+        {
+            <li class="listitem">
+                <a class="hyperlink" href="#" contenteditable="true">
+                    <h2>@workItem.Title</h2>
+                    <p>@workItem.Description</p>
+                    <span class="material-symbols-outlined">
+                        check_circle
+                    </span>
+                </a>
+            </li>
+        }
+    </ul>
+</div>
+
+
